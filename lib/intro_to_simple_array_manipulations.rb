@@ -13,9 +13,6 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-new_array = []
-new_array << array.pop()
-new_array <<  array.pop()
-puts new_array
-
+puts array.pop()
+puts array.pop()
 end
