@@ -1,3 +1,5 @@
+require "pry"
+
 def using_push(array, string)
   array.push(string)
 end
@@ -15,6 +17,5 @@ new_array = []
 new_array << array.pop()
 new_array <<  array.pop()
 new_array
+binding.pry
 end
-
-
